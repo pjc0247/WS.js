@@ -25,6 +25,7 @@ function WS(host){
 			if( msg.data[i] == ':' ){
 				pn = parseInt( msg.data.substring(0,i) );
 				data = msg.data.substring(i+1, msg.data.length);
+				break;
 			}
 		}
 
