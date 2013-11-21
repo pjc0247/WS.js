@@ -22,6 +22,7 @@ EM.run {
         if msg[i] == ':'
           pn = msg.slice(0, i)
           data = msg.slice(i+1, msg.length)
+          break
         end
       end
 		
